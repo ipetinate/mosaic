@@ -1,0 +1,33 @@
+button.button {
+  width: fit-content;
+  padding: 8px 12px;
+
+  color: var(--primary-color);
+  border: var(--border-primary);
+  background-color: transparent;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--dark-background-color);
+  }
+}
+
+button.button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  border: 1px solid #999;
+  opacity: 0.6;
+}
+
+.icon {
+  width: var(--sizing-24);
+  height: var(--sizing-24);
+  color: var(--primary-color);
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}

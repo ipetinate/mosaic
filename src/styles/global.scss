@@ -1,0 +1,21 @@
+@import './animations.scss';
+@import './components.scss';
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: 'wdth' 100;
+
+  width: 100vw;
+  height: auto;
+
+  background-color: var(--dark-background-color);
+  color: var(--primary-color);
+}

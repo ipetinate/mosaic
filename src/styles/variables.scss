@@ -1,0 +1,88 @@
+:root {
+  /* Light mode variables */
+  --primary-color: #ffffff;
+  --secondary-color: #6c6c6c;
+  --background-color: #000000;
+  --text-color: #ffffff;
+
+  /* Dark mode variables */
+  --dark-primary-color: #000000;
+  --dark-secondary-color: #333333;
+  --dark-background-color: #1c1c1c;
+  --dark-text-color: #000000;
+
+  /* Drop shadows */
+  --shadow-primary: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-secondary: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-dark-primary: 0 4px 8px rgba(255, 255, 255, 0.2);
+  --shadow-dark-secondary: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Border */
+  --border-primary: 1px solid var(--dark-secondary-color);
+
+  /* Sizings */
+  --sizing-4: 4px;
+  --sizing-8: 8px;
+  --sizing-12: 12px;
+  --sizing-16: 16px;
+  --sizing-20: 20px;
+  --sizing-24: 24px;
+  --sizing-28: 28px;
+  --sizing-32: 32px;
+  --sizing-36: 36px;
+  --sizing-40: 40px;
+  --sizing-44: 44px;
+  --sizing-48: 48px;
+  --sizing-52: 52px;
+  --sizing-56: 56px;
+  --sizing-60: 60px;
+  --sizing-64: 64px;
+  --sizing-68: 68px;
+  --sizing-72: 72px;
+  --sizing-76: 76px;
+  --sizing-80: 80px;
+  --sizing-84: 84px;
+  --sizing-88: 88px;
+  --sizing-92: 92px;
+  --sizing-96: 96px;
+  --sizing-100: 100px;
+  --sizing-104: 104px;
+  --sizing-108: 108px;
+  --sizing-112: 112px;
+  --sizing-116: 116px;
+  --sizing-120: 120px;
+  --sizing-124: 124px;
+  --sizing-128: 128px;
+  --sizing-132: 132px;
+  --sizing-136: 136px;
+  --sizing-140: 140px;
+  --sizing-144: 144px;
+  --sizing-148: 148px;
+  --sizing-152: 152px;
+  --sizing-156: 156px;
+  --sizing-160: 160px;
+  --sizing-164: 164px;
+  --sizing-168: 168px;
+  --sizing-172: 172px;
+  --sizing-176: 176px;
+  --sizing-180: 180px;
+  --sizing-184: 184px;
+  --sizing-188: 188px;
+  --sizing-192: 192px;
+  --sizing-196: 196px;
+  --sizing-200: 200px;
+  --sizing-204: 204px;
+  --sizing-208: 208px;
+  --sizing-212: 212px;
+  --sizing-216: 216px;
+  --sizing-220: 220px;
+  --sizing-224: 224px;
+  --sizing-228: 228px;
+  --sizing-232: 232px;
+  --sizing-236: 236px;
+  --sizing-240: 240px;
+  --sizing-244: 244px;
+  --sizing-248: 248px;
+  --sizing-252: 252px;
+  --sizing-256: 256px;
+}
