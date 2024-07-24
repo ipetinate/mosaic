@@ -12,7 +12,10 @@ export async function searchPhotos(
   queries: Record<string, string>
 ): Promise<Search> {
   const { data } = await axiosInstance.get<Search>('/search/photos', {
-    params: { client_id: import.meta.env.VITE_UNSPLASH_ACCESS_KEY, ...queries }
+    params: {
+      client_id: import.meta.env.VITE_UNSPLASH_ACCESS_KEY,
+      ...queries
+    }
   })
 
   return data

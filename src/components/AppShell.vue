@@ -4,15 +4,17 @@ import { computed, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useDebounce } from '../hooks/useDebounce'
 import { useAppStore } from '../store/useAppStore'
+import { storeToRefs } from 'pinia'
 
 const route = useRoute()
 const appStore = useAppStore()
+
+const { loading } = storeToRefs(appStore)
 
 const searchTerm = ref('')
 
 const searchTermDebounced = useDebounce(searchTerm, 800)
 
-const loading = computed(() => appStore.loading)
 const showSearchField = computed(() => route.name === 'HomeView')
 
 watch(searchTermDebounced, appStore.setSearchTerm)

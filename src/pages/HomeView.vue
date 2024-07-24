@@ -30,7 +30,7 @@ const {
   isLoading: isLoadingSearch,
   isFetching: isFetchingSearch
 } = useQuery({
-  queryKey: ['searchedPhotos'],
+  queryKey: ['searchedPhotos', appStore.searchTerm],
   queryFn: async () =>
     await searchPhotos({
       query: appStore.searchTerm,
